@@ -1,14 +1,36 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 <head>
-	<title>Calculator</title>
+<meta charset="utf-8">
+<title>Basic jQuery Calculator</title>
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/script.js"></script>
+<link rel="stylesheet" type="text/css" href="./css/style.css">
 </head>
-<body>
 <h1>Calculator</h1>
+<body>
 <div>
-	<div>
-		
-	</div>
+    <form action="" id="calculator">
+    	<input type="hidden" id="operation" value=""/>
+    	<input type="text" id="answer" value="" disabled="disabled"/>
+    	<input type="button" value="Clear" id="C" class="C" />
+     	<input type="button" value="1" id="1" class="one" />
+        <input type="button" value="2" id="2" class="two" />
+        <input type="button" value="3" id="3" class="three" />
+        <input type="button" value="+" id="plus" />
+        <input type="button" value="4" id="4" class="four" />
+        <input type="button" value="5" id="5" class="five" />
+        <input type="button" value="6" id="6" class="six" />
+        <input type="button" value="-" id="subtract"/>
+        <input type="button" value="7" id="7" class="seven" />
+        <input type="button" value="8" id="8" class="eight" />
+        <input type="button" value="9" id="9" class="nine" />
+        <input type="button" value="/" id="divide" />
+        <input type="button" value="0" id="0" class="zero" />
+        <input type="button" value="." id="decimal" class="zero" />
+        <input type="button" value="=" id="equals" />
+        <input type="button" value="*" id="product" />
+    </form>
 </div>
 </body>
 </html>

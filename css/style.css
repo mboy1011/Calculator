@@ -1,0 +1,34 @@
+form,input,button {
+ margin:0px; 
+}
+h1{
+	text-align: center;
+	float: center;
+}
+body{
+	background-color: #ccc;
+}
+div{
+	width:200px;
+	margin:auto;
+}
+.one,.two,.three,.four,.five,.six,.seven,.eight,.nine,.zero{
+	width:50px; 
+	height:50px; 
+	float:left;
+}
+.C{
+	width:100%; 
+	height:50px; 
+	float:left; 
+	color: red;
+}
+#plus,#subtract,#divide,#product,#equals{
+	width:50px; 
+	height:50px; 
+	float:left;
+}
+#answer{
+	width:98%; 
+	height:35px;
+}
